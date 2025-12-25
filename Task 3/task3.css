@@ -1,0 +1,91 @@
+/* reset settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #d3d3d3;
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#upper{
+    width: 100%;
+    height: 34%;
+    display: flex;
+    justify-content: space-between;
+}
+#center1{
+    width: 100%;
+    height: 20%;
+    background-color: #d3d3d3;
+}
+#center2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+#lower{
+    width: 100%;
+    height: 10%;
+    background-color: #d3d3d3;
+}
+
+.left{
+    width: 49%;
+    height: 100%;
+    background-color: #d3d3d3;
+}
+
+.right{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper2 {
+    width: 100%;
+    height: 58%;
+    background-color: #d3d3d3;
+
+}
+.lower2 {
+    width: 100%;
+    height: 38%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.son{
+    width: 48%;
+    height: 100%;
+    background-color: #d3d3d3;
+}
+
+.sonSm {
+    width: 18%;
+    height: 100%;
+    background-color: #d3d3d3;
+
+}
+.sonLg {
+    width: 28%;
+    height: 100%;
+    background-color: #d3d3d3;
+
+}
